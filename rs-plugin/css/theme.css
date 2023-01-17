@@ -1,0 +1,92 @@
+/***************************************************
+	SLIDER REVOLUTION - index
+***************************************************/
+
+.tp-banner-container { width:100%; position:relative; padding:0; margin-top:-20px; }
+.banner{ width:100%; position:relative; }
+.tp-banner-container li { visibility: hidden; }
+.rev-text { background: #77ac40; color: #fff; padding:20px; font-size:17px; line-height:26px; text-transform:uppercase; font-weight:300; }
+.rev-title { margin: 0px; color: #fff;}
+.rev-left { margin-left: 20px; }
+.rev-right { margin-right: 20px; }
+.rev-title.big { font-size: 40px; line-height: 44px!important;}
+.rev-title-sub { font-size: 30px; color: #fff; letter-spacing: 3px; font-weight: 400; }
+.rev-title.bold, .rev-title2.bold {
+	font-size: 60px!important;
+	font-weight: 700!important;
+	text-transform: uppercase;
+	color: #eee;
+	letter-spacing: 6px;
+	padding: 8px 15px;
+}
+.rev-title2.bold{ text-transform: none; letter-spacing:2px; padding: 0 0; }
+.tp-caption.bg { background: hsla(0,0%,100%,0.50); padding:20px 20px 10px 0px; }
+.big_white { color: #eee; font-size: 18px!important; background: #323A45; padding: 20px!important; }
+.shadow{text-shadow: 0px 1px 1px rgba(0,0,0,0.3); } 
+.tp-banner-container  .btn-outline, .tp-banner-container .btn-outline:hover { color:white; } 
+
+
+/**** HTML5 VIDEO****/
+.tp-caption.large_bold_title {
+	font: 75px/85px 'Lato', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 4px;
+	text-shadow: 0px 1px 1px rgba(0,0,0,0.3); 
+}
+.tp-caption.medium_text_shadow {
+	font: 25px/25px 'Lato', sans-serif!important;
+	font-weight: 600;
+	color: #fff;
+	text-align: center;
+	text-shadow: #000 0px 5px 10px;
+}
+.fullscreenvideo{ margin-top:-15px!important; } 
+
+/*-----------------------------------------------------------------------------------*/
+/*	08: MEDIA QUERIES
+/*-----------------------------------------------------------------------------------*/
+/* slider revolution */
+@media screen and (max-width: 768px){
+.tp-banner-container { margin-top:0px; }	
+.rev-title { font-size: 16px; line-height: 22px; } 
+.rev-title.big { font-size: 24px; line-height: 28px;}
+.rev-title.bold { font-size: 30px!important; padding:12px 10px!important; letter-spacing: 4px; }
+.rev-title2.bold { font-size: 30px!important; }
+.rev-title.big { line-height: 30px!important;}
+.mobile{ margin-top:-20px; }
+}
+/* slider revolution */
+@media screen and (min-width: 481px) and (max-width:766px){
+.rev-title { font-size: 10px; line-height: 14px; }
+.rev-title.bold { font-size: 30px!important; line-height: 25px; margin: 0 auto; }
+.rev-title.big { font-size: 30px; line-height: 25px; }
+.rev-title2.bold { font-size: 30px!important; margin-top: -10px; }
+.rev-title.big.bold {font-size: 30px!important;}
+h3.follow { width:80%!important; line-height:35px!important;}
+.follow_us a { font-size: 45px!important; margin: 20px 15px!important; }
+.welcome_index { font: 25px/35px 'Lato', sans-serif!important; padding: 25px 0 10px!important;}
+}
+/* slider revolution */
+@media screen and (max-width: 31.5em) {
+.rev-title.bold { font-size: 20px!important; letter-spacing: 4px; }
+.rev-title2.bold { font-size: 25px!important; margin-top:0px; }
+.rev-title-sub { margin:10px 0 0!important; }
+.rev-title.big { font-size: 20px; line-height: 25px!important; }
+.btn-mobile, .btn-mobile2  { font-size: 11px!important; padding: 8px 9px; margin-top: 10px;  border: 1px solid #fff;}
+.btn-mobile2 { margin-top: -15px; }
+.fullscreenvideo { margin-top:-20px!important; } 
+.welcome_index { font: 25px/35px 'Lato', sans-serif!important; padding: 25px 0 10px!important; }
+h3.follow { width:90%!important; line-height:35px!important; }
+.follow_us a { font-size: 35px!important; margin: 20px 10px!important; }
+
+/* gallery */
+.holder a { font-size: 12px; padding: 4px 10px; margin:0 5px 5px 0; letter-spacing: 0px!important;  }
+.holder { margin:40px 0 40px; text-align: left; }
+/* filters */
+#filters li a, #filters2 li a { font-size: 12px; padding: 8px 14px; margin:0 5px 0px 0!important; letter-spacing: 0px!important;  }
+#filters li , #filters2 li  { margin-bottom:0px!important; }
+#filters2 { text-align: left!important; margin:40px 5px 40px -40px!important;}
+#options  { margin:0px 0 -10px; }
+}
